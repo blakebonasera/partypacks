@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700i|Pacifico&display=swap"
+        rel="stylesheet">
+
+    <title>Party Packs!</title>
+</head>
+
+<body>
+
+    <!--JUMBOTRON-->
+    <div class="jumbotron">
+        <h1 class="display-4 headline">Party Packs!</h1>
+        <p class="lead bodyfont2">Pick and choose from our selection of goods and treats to create your own party pack
+            for someone special this season.</p>
+        <hr class="my-4">
+        <p class="bodyfont2">Click here to see what we have available: </p>
+        <p class="lead">
+            <a class="btn jumboButton btn-lg" href="shop.html" role="button">Build Your Basket</a>
+        </p>
+    </div>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm ">
+        <a class="navbar-brand navText" href="index.html">Party Packs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "><i class="fa fa-bars navIcon" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link navText" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navText active" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navText" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navText" href="#" id="navbarDropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="shop.html#easter">Easter Baskets</a>
+                        <a class="dropdown-item" href="shop.html#birthday">Birthday Baskets</a>
+                        <a class="dropdown-item" href="shop.html#stPatrick">St Patrick's Day Baskets</a>
+                    </div>
+                </li>
+            </ul>
+            <a href="#"><i id="cart" class="fa fa-shopping-cart navCart navIcon" aria-hidden="true"></i></a>
+        </div>
+    </nav>
+    <br><br>
+
+    <!--ACCORDION-->
+    <div class="container">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="weddings">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link title" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            Weddings
+                        </button>
+                    </h5>
+                </div>
+        
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                       <p>Need something to give the Bride and Groom? We have you covered with special baskets made upon request.<br>
+                        Need a way to thank your wedding party? We will make identical baskets for your wedding party to show them they matter on your big day.<br>
+                        For pricing please email us: <a href="#">partypacks@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="corporate">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                            aria-expanded="false" aria-controls="collapseTwo">
+                           Corporate Events
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Nothing shows a customer you care about them like one of our Special Order Corporate Baskets! Just send us logo and we can add it onto special packaging on items in our gift baskets.<br>
+                        Whether if you are searching for new customers are showing appreciation these baskets will make an impact and have your business standing out amongst the others.<br>
+                        For pricing please email us: <a href="#"><u>partypacks@gmail.com</u></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="charity">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Charity 
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Our Baskets can help make a silent auction event raise more charity! We can set up baskets with all sorts of amenities and treats.<br>
+                        Send us what type of amenities you want and we can set up vouchers for any hospitality business's in your area.<br>
+                        For pricing please email us: <a href="#">partypacks@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CALENDAR-->
+    <div class="container">
+        <div class="col">
+            <div class="row row-content">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%2398b79c&amp;ctz=America%2FLos_Angeles&amp;src=bzlobmxnc2RyYnM2NGQ0OTcwN3ZpcjgxNzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23EF6C00&amp;color=%230B8043&amp;title=Party%20Packs%20Holiday%20Sales%20Events"
+                    style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col footerCol ">
+                    <h5 class="footerTitle footerLinks">Links</h5>
+                    <ul class="footerNav">
+                        <li class="footerNavElement"><a href="#">Home</a></li>
+                        <li class="footerNavElement"><a href="#">About</a></li>
+                        <li class="footerNavElement"><a href="#">Sites</a></li>
+                        <li class="footerNavElement"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="footerTitle">Social</h5>
+                    <div clas="footerSocial">
+                        <a href="http://instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="http://facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="http://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="http://pinterest.com/"><i class="fa fa-pinterest-square"
+                                aria-hidden="true"></i></a><br />
+                    </div>
+                    <p class=colorBrown><span class="emph">Tel: </span> 1-555-555-1234<br />
+                        <span class="emph">Email: <a href="#"></span><u>partypacks@gmail.com</u></p></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

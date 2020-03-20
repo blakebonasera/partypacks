@@ -1,0 +1,31 @@
+{
+  "name": "giftbasket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch:all",
+    "MACstart": "npm run MACwatch:all",
+    "scss": "node-sass -o css/ css/",
+    "lite": "lite-server",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "MACwatch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "MACwatch:all": "parallelshell 'npm run MACwatch:scss' 'npm run lite'"
+  },
+  "author": "Brian/Blake",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.12.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}

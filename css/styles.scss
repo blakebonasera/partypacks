@@ -1,0 +1,272 @@
+$color1: rgba(93, 62, 39, 1);
+$color2: rgba(8, 90, 119, 1);
+$color3: rgba(72, 102, 70, 1);
+$color4: rgba(152, 183, 156, 1);
+$color5: rgba(252, 255, 235, 1);
+$color6: #FF9442;
+$color-transparent-black: rgba(0,0,0,0.5);
+
+$bodycopy: Alegreya Sans, sans-serif;
+$titlecopy: Pacifico, script;
+
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+body {
+    background-color: $color5;
+    //border-left: 25px solid $color6;
+}
+
+a {
+    text-decoration: none;
+    color: $color5;
+}
+
+h1 {
+    text-align: center;
+    font-family: $titlecopy;
+    color: $color1;
+}
+
+//JUMBOTRON
+.jumbotron {
+    margin: 0;
+    padding: 40px;
+    background-image: url("../img/background.jpg");
+    color: $color3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 375px;
+    background-position: center center;
+    text-shadow: 1px 1px $color5;
+}
+
+.easter_bg {
+    background-image: url("../img/easter_bg.jpg");
+}
+
+.jumboButton {
+    background-color: $color5;
+    color: $color1;
+    font-weight: bold;
+}
+
+.jumboButton:hover {
+    box-shadow: 2px 2px black;
+    background-color: $color4;
+    color: $color5;
+    text-shadow: none;
+    transition: width 2s ease-in-out 1s;
+}
+
+
+
+//NAVBAR
+.navbar {
+    background-color: $color4;
+}
+
+.navText {
+    color: $color1;
+    margin-right: 20px;
+    font-weight: 500;
+    font-family: $bodycopy;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 700;
+ }
+
+.navIcon {
+    color: $color1;
+}
+
+#cart {
+    align-self: right;
+}
+//TEXT
+.decoCard {
+    margin: 20px;
+    max-width: 90%;
+}
+
+.headline {
+    font-family: $titlecopy;
+    margin-bottom: 20px;
+}
+
+.titleText{
+    color: $color1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: $bodycopy;
+    font-style: italic;
+    font-weight: 700;
+    border-bottom: 2px solid $color4;
+}
+
+.bodyfont {
+    font-family: $bodycopy;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bodyfont2 {
+    font-family: $bodycopy;
+    font-weight: 700;
+    //font-style: italic;
+    color: $color1;
+}
+
+.description{
+    font-family: $bodycopy;
+    color: $color1;
+    border-bottom: 1px solid $color5;
+    border-top: 1px solid $color5;
+    padding: 5px 0;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-bottom: 15px;
+}
+
+.pricing{
+    font-style: italic;
+    font-weight: 600;
+}
+
+//CAROUSEL
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel {
+    border: solid $color4;
+    //min-width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.carousel-caption {
+    background-color: $color-transparent-black;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+//PRODUCT-GRID
+.product-grid{
+    text-align:center;
+    margin-top: 20px;
+    padding: 5px 0 20px 0;
+    background-color: $color4;
+    border:1px solid rgba(0,0,0,.1);
+    overflow:hidden;
+    position:relative;
+    z-index:1;
+    .product-image {
+
+        img {
+            width:auto; 
+            height:250px;
+        }
+    }
+    .title{
+        color: $color1;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        font-family: $bodycopy;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+footer {
+    background-color: $color4;
+    margin-top: 20px;
+}
+
+.footerCol {
+    border-right: 2px solid $color5;
+}
+
+.footerTitle {
+    padding-top: 20px;
+    font-family: $bodycopy;
+    font-weight: 500;
+    color: $color1;
+}
+
+.footerNav{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.footerNavElement{
+    flex: 1 1 100px;
+    min-width: 50px;
+    font-family: $bodycopy;
+    font-weight: 500;
+}
+
+.footerNav li{
+    color: $color1;
+}
+
+.footerSocial{
+    display: flex;
+}
+
+.emph{
+    font-weight: 700;
+    font-size: smaller;
+    font-variant: small-caps;
+    color: $color1;
+}
+
+.colorBrown {
+    color: $color1;
+}
+
+.card-header{
+    background-color: $color4;
+    .btn-link{
+        color: $color1;
+        }
+}
+
+.card-body{
+    background-color: $color5;
+    p, a {
+        color:$color1;
+    }
+}
+.card-title{
+    color:$color1
+}
+// @media (max-width: $screen-xs-max) { 
+//  }
+//  @media (min-width: $screen-sm-min) { 
+//     .collapse {
+//         display: none !important;
+//     }
+//   }
+// @media (max-width: $screen-sm-max) {  }
+// @media (min-width: $screen-md-min) {  }
+// @media (max-width: $screen-md-max) {  }
+// @media (min-width: $screen-lg-min) {  }

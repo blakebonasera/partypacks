@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700i|Pacifico&display=swap"
+        rel="stylesheet">
+    <title>Party Packs!</title>
+</head>
+
+<body>
+    
+    <!--JUMBOTRON-->
+    <div class="jumbotron easter_bg">
+        <h1 class="display-4 headline"> Happy Easter </h1>
+        <p class="lead bodyfont2">Pick and choose from our selection of goods and treats to create your own party pack
+            for
+            someone special this season.</p>
+    </div>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-sm ">
+        <a class="navbar-brand navText" href="index.html">Party Packs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "><i class="fa fa-bars navIcon" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link navText" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navText" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navText" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navText active" href="#" id="navbarDropdown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shop
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#easter">Easter Baskets</a>
+                        <a class="dropdown-item" href="#birthday">Birthday Baskets</a>
+                        <a class="dropdown-item" href="#stPatrick">St Patrick's Day Baskets</a>
+                    </div>
+                </li>
+            </ul>
+            <a href="#"><i id="cart" class="fa fa-shopping-cart navCart navIcon" aria-hidden="true"></i></a>
+        </div>
+    </nav>
+
+
+    <!--PRODUCT-GRID-->
+    <div class="container" id="treats">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="macarons" src="img/macarons.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Colorful Macarons</h2>
+                        <p class="description"> <span class="pricing">$16 - One Dozen </span> <br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="donuts" src="img/buttermilk_donuts.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Buttermilk Donuts</h2>
+                        <p class="description"><span class="pricing">$16 - One Dozen </span> <br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="Sugar Cookies" src="img/sugarcookies.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Sugar Cookies</h2>
+                        <p class="description"><span class="pricing">$16 - One Dozen </span> <br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="Cookie Basket" src="img/cookie_baskets.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Easter Cookies</h2>
+                        <p class="description"> <span class="pricing">$16 - One Dozen </span><br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="birthday">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid" >
+                    <div class="product-image">
+                        <img alt="candyBirthday" src="img/candyBirthdayBasket.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Candy Birthday Basket</h2>
+                        <p class="description"> <span class="pricing">Random variety of </span>
+                            <br>popular candy brands</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="cookieBirthday" src="img/cookieBirthday.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Cookie Cake</h2>
+                        <p class="description"><span class="pricing">$30 - Per cake </span><br> Nothing better than a giant
+                        <br>chocolate chip cookie for your Birthday</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="birthdayBeer" src="img/stPatrickBeer.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Birthday Beer Basket</h2>
+                        <p class="description"><span class="pricing">$80 - Per Basket </span> <br> ID will be checked 
+                            <br>upon delivery</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="stPatrickOreos" src="img/stPatrickOreos.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Dipped Oreos</h2>
+                        <p class="description"> <span class="pricing">$16 - One Dozen </span><br> select from dark,
+                            <br>milk, or white chocolate</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="stPatrick">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="stPatricksBerry" src="img/stPatricksBerry.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Dipped Strawberries</h2>
+                        <p class="description"> <span class="pricing">$16 - One Dozen </span> <br> select from dark,
+                            <br>milk, or white chocolate</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="donuts" src="img/buttermilk_donuts.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Buttermilk Donuts</h2>
+                        <p class="description"><span class="pricing">$16 - One Dozen </span> <br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="st Patrick Beer" src="img/stPatrickBeer.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">St Patrick's Beer Basket</h2>
+                        <p class="description"><span class="pricing">$80 - Per Basket </span> <br> ID will be checked
+                            <br>upon delivery</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="patrick wine" src="img/StPatricksWine.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">St Patrick's Wine Basket</h2>
+                        <p class="description"> <span class="pricing">$80 - Per Basket </span><br> ID will be checked
+                            <br>upon delivery</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="easter">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="easterBasket" src="img/adultEasterBasket.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Candy</h2>
+                        <p class="description"> <span class="pricing">$40 - Per Basket </span> <br> Great for all ages!
+                        <br> </p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="stuffed animals" src="img/kidsEasterBasket.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Stuffed Animal</h2>
+                        <p class="description"><span class="pricing">$50 - Per Basket </span> <br> select from lemon,
+                            <br>strawberry, or vanilla</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="smEasterBasket" src="img/smEasterBasket.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Small Easter Basket</h2>
+                        <p class="description"><span class="pricing">$25 - Per Basket </span> <br> Great for all ages!</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="product-grid">
+                    <div class="product-image">
+                        <img alt="deluxeEaster" src="img/deluxeEaster.jpg">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="title">Deluxe Easter Basket</h2>
+                        <p class="description"> <span class="pricing">$80 - Per Basket </span><br> Great for all ages!
+                            <br>Show how much the Easter Bunny cares!</p>
+                        <a class="btn jumboButton" href="#" role="button">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col footerCol ">
+                    <h5 class="footerTitle footerLinks">Links</h5>
+                    <ul class="footerNav">
+                        <li class="footerNavElement"><a href="#">Home</a></li>
+                        <li class="footerNavElement"><a href="#">About</a></li>
+                        <li class="footerNavElement"><a href="#">Sites</a></li>
+                        <li class="footerNavElement"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="footerTitle">Social</h5>
+                    <div clas="footerSocial">
+                        <a href="http://instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="http://facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="http://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="http://pinterest.com/"><i class="fa fa-pinterest-square"
+                                aria-hidden="true"></i></a><br />
+                    </div>
+                    <p class=colorBrown><span class="emph">Tel: </span> 1-555-555-1234<br />
+                        <span class="emph">Email: <a href="#"></span><u>partypacks@gmail.com</u></p></a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
